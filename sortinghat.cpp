@@ -110,7 +110,7 @@ std::cin >> q4;
       std::cout << ravenclaw << hufflepuff << slytherin << gryffindor << "\n";
   
     //q5
-std::cout << "How big is philips benis?\n 1) sorta\n 2) pretty\n 3) very\n 4) chuck norris";
+std::cout << "How big is philips benis?\n 1) sorta\n 2) pretty\n 3) very\n 4) chuck norris\n";
   
 std::cin >> q5;
   
