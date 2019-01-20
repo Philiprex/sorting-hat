@@ -44,7 +44,7 @@ std::cin >> q1;
   }
   
     //displays points (for dev)
-      std::cout << ravenclaw << hufflepuff << slytherin << gryffindor << "\n";
+      std::cout << "\n" << ravenclaw << hufflepuff << slytherin << gryffindor << "\n";
   
   //q2
 std::cout << "Ah, I see. On to question 2. What topic intersts you most?\n 1) Potions\n 2) Charms\n 3) Herbology\n 4) Transfiguration\n";
@@ -65,7 +65,7 @@ std::cin >> q2;
     gryffindor++; 
 }
   
-    std::cout << ravenclaw << hufflepuff << slytherin << gryffindor << "\n";
+    std::cout << "\n" << ravenclaw << hufflepuff << slytherin << gryffindor << "\n";
   
   //q3
 std::cout << "Well that certainly shows. Anyway, on to our third question. I think the most important quality is for a person to be\n 1) True.\n 2) Loyal.\n 3) Wise.\n 4) Brave.\n";
@@ -86,7 +86,7 @@ std::cin >> q3;
     slytherin++; 
 }
 
-      std::cout << ravenclaw << hufflepuff << slytherin << gryffindor << "\n";
+      std::cout << "\n" << ravenclaw << hufflepuff << slytherin << gryffindor << "\n";
   
   //q4
 std::cout << "Very telling. On to our final question. Which land are you drawn to?\n 1) Classic colonial American towns.\n 2) The summit of Everest.\n 3) London.\n 4) A sprawling university.\n";
@@ -107,7 +107,7 @@ std::cin >> q4;
     ravenclaw++; 
 }
   
-      std::cout << ravenclaw << hufflepuff << slytherin << gryffindor << "\n";
+      std::cout << "\n" << ravenclaw << hufflepuff << slytherin << gryffindor << "\n";
   
     //q5
 std::cout << "How big is philips benis?\n 1) sorta\n 2) pretty\n 3) very\n 4) chuck norris\n";
@@ -128,10 +128,9 @@ std::cin >> q5;
     ravenclaw++; 
 }
   
-      std::cout << ravenclaw << hufflepuff << slytherin << gryffindor << "\n";
+      std::cout << "\n" << ravenclaw << hufflepuff << slytherin << gryffindor << "\n";
 
   //logic computer
-  {
   //1
   if (gryffindor>ravenclaw){
     
@@ -205,7 +204,6 @@ std::cin >> q5;
         std::cout << "HS";
       if (hufflepuff==gryffindor)
         std::cout << "HSGR";} 
-    }
   }
   
   //outro
